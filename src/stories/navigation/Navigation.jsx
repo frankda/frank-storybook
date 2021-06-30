@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react';
-import './navigation.scss';
+// import './navigation.scss';
 
-const Navigation = (props) => {
+export const Navigation = (props) => {
   const [currentScrollPosState, setCurrentScrollPosState] = useState(0);
   const [currentInnerWidthState, setCurrentInnerWidthState] = useState(0);
   const [isSidebarActiveState, setIsSidebarActiveState] = useState(false);
@@ -118,5 +118,3 @@ const Navigation = (props) => {
     </div>
   )
 }
-
-export default Navigation;
