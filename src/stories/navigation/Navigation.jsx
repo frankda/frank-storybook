@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react';
-// import './navigation.scss';
+import './navigation.css';
 
 export const Navigation = (props) => {
   const [currentScrollPosState, setCurrentScrollPosState] = useState(0);
