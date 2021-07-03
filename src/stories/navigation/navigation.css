@@ -1,0 +1,45 @@
+.global-nav {
+    z-index: 500;
+    max-width: inherit;
+    margin: auto;
+    width: 100%;
+}
+
+.global-nav--scroll-up {
+    position: fixed;
+    transform: translateY(0);
+    transition: 0.2s;
+}
+.global-nav--scroll-down {
+    position: absolute;
+    transform: translateY(-100%);
+    box-shadow: 0 2px 7px 0 rgba(0, 0, 0, 0.15);
+}
+
+.global-nav__brand-container {
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+.global-nav__brand {
+    flex-grow: 1;
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+.global-nav__nav-links {
+    margin-right: 31px;
+}
+.global-nav__nav-link {
+    margin-right: 25px;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 120%;
+    color: #e0e0e0;
+}
+
+.global-nav:last-child {
+margin-right: 0;
+}
